@@ -1,0 +1,65 @@
+/*validiert*/
+/*=============================
+CSS für J&M Development ÜK 307
+Autor: Michael Hadorn, Joel Baumann
+Erstelldatum: 13.02.2019
+Version:1.0
+===============================*/
+/*=============================
+
+Inhaltsverzeichnis
+
+1. Formular
+
+===============================*/
+/*=============================
+1. Formular
+===============================*/
+main section .Container {
+
+    height: 500px;
+    width: 50%;
+    background-color: rgba(255, 255, 255);
+    padding: 5px 5px 0 0;
+    margin-left: 40%;
+    margin-top: 10%;
+    border-style: solid;
+    padding-left: 10px;
+
+}
+main section .Container{
+    
+    width:25%;
+    margin-left: 50%;
+}
+
+main section .Container .contect-form{
+    margin-left: 20%;
+    margin-top: 30px;
+    
+}
+main section .Container .contect-form input[type=text], main section .Container .contect-form input[type=password], main section .Container .contect-form input[type=submit]{
+    
+   margin-bottom: 10px;
+    
+}
+
+main section .Container .contect-form input[type=submit]{
+    
+    margin-left:25%;
+    margin-top:10px;
+}
+
+main section .Container .contect-form textarea{
+    
+    width:70%;
+    height:150px;
+    resize:both;
+}
+main section .Container .contect-form input[type=text], main section .Container .contect-form input[type=password]{
+    
+    width:70%;
+    
+}
+
+

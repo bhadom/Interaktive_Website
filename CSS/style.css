@@ -1,0 +1,223 @@
+/*validiert*/
+/*=============================
+CSS für J&M Development ÜK 307
+Autor: Michael Hadorn, Joel Baumann
+Erstelldatum: 13.02.2019
+Version:1.0
+===============================*/
+/*=============================
+
+Inhaltsverzeichnis
+
+1. Schriftart
+2. Header
+3. Navigation
+4. Body 
+5. Footer
+6. Responsive
+
+===============================*/
+/*=============================
+1. Schriftart
+===============================*/
+* {
+    font-family: Arial, "MS Sans Serif";
+    box-sizing: border-box;
+
+}
+
+/*=============================
+2. Header
+===============================*/
+header img {
+
+    background-size: 150px 300px;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 120px;
+    float: left;
+    padding-top: 15px;
+    padding-left: 15px;
+
+
+}
+
+.Login a,.Register a{
+    color: rgba(237, 108, 5);
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    text-decoration: underline;
+}
+
+.Username{
+  color: rgba(237, 108, 5);
+  float:right;
+  margin: auto;
+  padding-top:20px;
+  padding-right:10%;
+  text-decoration: underline;
+}
+
+header form{
+  height:0;
+}
+header h5 a:hover {
+    color: rgba(239, 168, 55);
+}
+
+
+header {
+    background-color: rgba(53, 55, 58, 0.9);
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    top: 0;
+
+
+}
+header form input[type = submit]{
+
+  top:50px;
+  left:91%;
+  background-color: rgba(237, 108, 5);
+  border: none;
+  color: black;
+  padding: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  position: fixed;
+
+
+}
+/*=============================
+3. Navigation
+===============================*/
+#menu-icon {
+
+    display: hidden;
+    width: 40px;
+    height: 40px;
+    background: url(../Medien/nonTransparent.png);
+    background-size: 40px 40px;
+}
+
+
+nav ul {
+
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0);
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 300px;
+    width: 70%;
+    max-width: 70%;
+
+
+}
+
+nav ul li {
+    float: left;
+
+}
+
+nav ul li a {
+    
+    color: rgba(237, 108, 5);
+    text-align: center;
+    text-decoration: none;
+    padding-right: 85px;
+    padding-left: 85px;
+
+}
+
+nav ul li a:hover {
+    color: rgba(239, 168, 55);
+}
+/*=============================
+4. Body
+===============================*/
+
+body {
+    margin: 0;
+    background-color: rgba(232, 232, 232);
+}
+
+main section img {
+    
+    height: 500px;
+    width:18%;
+    max-width: 100%;
+    position: absolute;
+    margin-left: 8%;
+    border-style: solid;
+    border-color: rgba(0,0,0);
+}
+
+main section .Container {
+
+    height: 500px;
+    width: 40%;
+    background-color: rgba(255, 255, 255);
+    padding: 80px 20px 0 30px;
+    margin-left: 40%;
+    margin-top: 10%;
+    border-style: solid;
+    overflow:scroll;
+
+}
+/*=============================
+5. Footer
+===============================*/
+footer {
+    height: 2.5%;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top:3px;
+    text-align: center;
+    width: 100%;
+}
+
+footer a {
+    color: rgba(237, 108, 5);
+    text-decoration: none;
+    
+    margin-top: 2.5px;
+}
+
+footer a:hover {
+    color: rgba(239, 168, 55);
+}
+/*=============================
+6. Responsive
+===============================*/
+@media screen and (max-width: 1700px) {
+
+    nav ul li a {
+        padding-right: 25px;
+        padding-left: 25px;
+        width:50%;
+    }
+    nav ul{
+      width:65%;
+    }
+    header form input[type = submit]{
+      left:87%;
+    }
+    .Username{
+
+      padding-right:20%;
+
+    }
+
+}

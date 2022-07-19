@@ -1,0 +1,104 @@
+/*validiert*/
+/*=============================
+CSS für J&M Development ÜK 307
+Autor: Michael Hadorn, Joel Baumann
+Erstelldatum: 13.02.2019
+Version:1.0
+===============================*/
+/*=============================
+
+Inhaltsverzeichnis
+
+1. Header
+2. Navigation
+3. Body
+===============================*/
+/*=============================
+1. Header
+===============================*/
+.Username{
+padding-right: 20%;
+
+}
+header form input[type = submit]{
+  left:84%;
+}
+/*=============================
+2. Navigation
+===============================*/
+#menu-icon {
+
+    display: inline-block;
+    position: relative;
+    float: right;
+    top: 140px;
+    left: 130px;
+
+
+}
+
+nav ul {
+    width: 30%;
+    padding-left: 0px;
+    min-width: 70%;
+   
+}
+
+nav ul,
+nav:active ul {
+
+    display: none;
+    position: absolute;
+    top: 0px;
+    background: #fff;
+    border: 5px solid #444;
+    right: 20px;
+    border-radius: 4px 0 4px 4px;
+
+}
+
+
+
+
+nav li {
+
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+
+}
+
+nav ul li {
+    padding-left: 25px;
+    
+}
+
+nav:hover ul {
+
+    display: block;
+    
+
+}
+
+/*=============================
+3. Body
+===============================*/
+main section img {
+    visibility: hidden;
+}
+
+main section .Container {
+    width: 50%;
+    margin-left: 25%;
+    overflow:scroll;
+}
+
+
+main section .Container .contect-form textarea {
+
+    width: 100%;
+
+}
+
+

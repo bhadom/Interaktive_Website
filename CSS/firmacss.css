@@ -1,0 +1,41 @@
+/*validiert*/
+/*=============================
+CSS für J&M Development ÜK 307
+Autor: Michael Hadorn, Joel Baumann
+Erstelldatum: 13.02.2019
+Version:1.0
+===============================*/
+/*=============================
+
+Inhaltsverzeichnis
+
+1. Body
+
+===============================*/
+/*=============================
+1. Body
+===============================*/
+main section .Container {
+
+    height: 500px;
+    width: 40%;
+    background-color: rgba(255, 255, 255);
+    padding: 20px 10px 0 10px;
+    margin-left: 40%;
+    margin-top: 10%;
+    border-style: solid;
+    padding-left: 10px;
+    text-align:center;
+}
+
+
+.firmaOne{
+    
+    height:250px;
+    width:60%;
+    position: relative;
+    top:20%;
+    margin-left:0%;
+    
+}
+

@@ -1,0 +1,68 @@
+/*validiert*/
+/*=============================
+CSS für J&M Development ÜK 307
+Autor: Michael Hadorn, Joel Baumann
+Erstelldatum: 13.02.2019
+Version:1.0
+===============================*/
+/*=============================
+
+Inhaltsverzeichnis
+
+1. Header
+2. Navigation
+3. Body
+===============================*/
+/*=============================
+1. Header
+===============================*/
+header section h5 {
+    padding-right: 20px;
+    padding-left: 10px;
+
+}
+
+/*=============================
+2. Navigation
+===============================*/
+    .Username {
+        visibility: hidden;
+    }
+
+    header img {
+
+        float: none;
+        position: relative;
+        left: 20%;
+
+    }
+
+    header section h5 a {
+
+        padding-right: 2px;
+        padding-left: 2px;
+        padding-top: 10px;
+        right: 50%;
+
+
+    }
+
+
+
+    header form input[type=submit] {
+        top: 170px;
+        left: 10%;
+    }
+
+    #menu-icon {
+
+        left: 0%;
+        top: 30%;
+        padding: 0;
+    }
+/*=============================
+3. Body
+===============================*/
+main section .Container .Contect-form input[type="submit"]{
+    margin-left:0%;
+}

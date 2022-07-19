@@ -1,0 +1,61 @@
+/*validiert*/
+/*=============================
+CSS für J&M Development ÜK 307
+Autor: Michael Hadorn, Joel Baumann
+Erstelldatum: 13.02.2019
+Version:1.0
+===============================*/
+/*=============================
+
+Inhaltsverzeichnis
+
+1. Formular
+2. Fehlertext
+
+===============================*/
+/*=============================
+1. Formular
+===============================*/
+main section .Container {
+
+    height: 500px;
+    width: 25%;
+    background-color: rgba(255, 255, 255);
+    padding: 5px 5px 0 0;
+    margin-left: 50%;
+    margin-top: 10%;
+    border-style: solid;
+    padding-left: 10px;
+
+}
+
+
+main section .Container .Contect-form{
+    margin-left: 24%;
+    margin-top: 70px;
+
+}
+main section .Container .Contect-form input[type=text], main section .Container .Contect-form input[type=password], main section .Container .Contect-form input[type=submit]{
+
+   margin-bottom: 25px;
+
+}
+
+main section .Container .Contect-form input[type=submit]{
+
+    margin-left:25%;
+}
+
+
+main section .Container .Contect-form input[type=text], main section .Container .Contect-form input[type=password]{
+
+    width:70%;
+}
+/*=============================
+2. Fehlertext
+===============================*/
+
+main section .Container p{
+  text-align:center;
+  color:red;
+}
